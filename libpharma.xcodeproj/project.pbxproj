@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		FA5A0EFA1C52C2F70045EF23 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0EF91C52C2F70045EF23 /* main.c */; };
+		FA5A0F221C52C3040045EF23 /* client_controller.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F011C52C3040045EF23 /* client_controller.c */; };
+		FA5A0F231C52C3040045EF23 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F031C52C3040045EF23 /* client.c */; };
+		FA5A0F241C52C3040045EF23 /* commande_controller.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F051C52C3040045EF23 /* commande_controller.c */; };
+		FA5A0F251C52C3040045EF23 /* commande.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F071C52C3040045EF23 /* commande.c */; };
+		FA5A0F261C52C3040045EF23 /* constants.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F091C52C3040045EF23 /* constants.c */; };
+		FA5A0F271C52C3040045EF23 /* fournisseur_controller.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F0B1C52C3040045EF23 /* fournisseur_controller.c */; };
+		FA5A0F281C52C3040045EF23 /* fournisseur.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F0D1C52C3040045EF23 /* fournisseur.c */; };
+		FA5A0F291C52C3040045EF23 /* linked_list.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F101C52C3040045EF23 /* linked_list.c */; };
+		FA5A0F2A1C52C3040045EF23 /* medicament_controller.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F121C52C3040045EF23 /* medicament_controller.c */; };
+		FA5A0F2B1C52C3040045EF23 /* medicament.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F141C52C3040045EF23 /* medicament.c */; };
+		FA5A0F2C1C52C3040045EF23 /* sb_date.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F161C52C3040045EF23 /* sb_date.c */; };
+		FA5A0F2D1C52C3040045EF23 /* sb_file.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F181C52C3040045EF23 /* sb_file.c */; };
+		FA5A0F2E1C52C3040045EF23 /* sb_number.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F1A1C52C3040045EF23 /* sb_number.c */; };
+		FA5A0F2F1C52C3040045EF23 /* sb_string.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F1C1C52C3040045EF23 /* sb_string.c */; };
+		FA5A0F301C52C3040045EF23 /* vente_controller.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F1E1C52C3040045EF23 /* vente_controller.c */; };
+		FA5A0F311C52C3040045EF23 /* vente.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5A0F201C52C3040045EF23 /* vente.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +41,40 @@
 /* Begin PBXFileReference section */
 		FA5A0EF61C52C2F70045EF23 /* libpharma */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libpharma; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5A0EF91C52C2F70045EF23 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FA5A0F001C52C3040045EF23 /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		FA5A0F011C52C3040045EF23 /* client_controller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client_controller.c; sourceTree = "<group>"; };
+		FA5A0F021C52C3040045EF23 /* client_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_controller.h; sourceTree = "<group>"; };
+		FA5A0F031C52C3040045EF23 /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		FA5A0F041C52C3040045EF23 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		FA5A0F051C52C3040045EF23 /* commande_controller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = commande_controller.c; sourceTree = "<group>"; };
+		FA5A0F061C52C3040045EF23 /* commande_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commande_controller.h; sourceTree = "<group>"; };
+		FA5A0F071C52C3040045EF23 /* commande.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = commande.c; sourceTree = "<group>"; };
+		FA5A0F081C52C3040045EF23 /* commande.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commande.h; sourceTree = "<group>"; };
+		FA5A0F091C52C3040045EF23 /* constants.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constants.c; sourceTree = "<group>"; };
+		FA5A0F0A1C52C3040045EF23 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		FA5A0F0B1C52C3040045EF23 /* fournisseur_controller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fournisseur_controller.c; sourceTree = "<group>"; };
+		FA5A0F0C1C52C3040045EF23 /* fournisseur_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fournisseur_controller.h; sourceTree = "<group>"; };
+		FA5A0F0D1C52C3040045EF23 /* fournisseur.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fournisseur.c; sourceTree = "<group>"; };
+		FA5A0F0E1C52C3040045EF23 /* fournisseur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fournisseur.h; sourceTree = "<group>"; };
+		FA5A0F0F1C52C3040045EF23 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FA5A0F101C52C3040045EF23 /* linked_list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linked_list.c; sourceTree = "<group>"; };
+		FA5A0F111C52C3040045EF23 /* linked_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linked_list.h; sourceTree = "<group>"; };
+		FA5A0F121C52C3040045EF23 /* medicament_controller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = medicament_controller.c; sourceTree = "<group>"; };
+		FA5A0F131C52C3040045EF23 /* medicament_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = medicament_controller.h; sourceTree = "<group>"; };
+		FA5A0F141C52C3040045EF23 /* medicament.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = medicament.c; sourceTree = "<group>"; };
+		FA5A0F151C52C3040045EF23 /* medicament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = medicament.h; sourceTree = "<group>"; };
+		FA5A0F161C52C3040045EF23 /* sb_date.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sb_date.c; sourceTree = "<group>"; };
+		FA5A0F171C52C3040045EF23 /* sb_date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sb_date.h; sourceTree = "<group>"; };
+		FA5A0F181C52C3040045EF23 /* sb_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sb_file.c; sourceTree = "<group>"; };
+		FA5A0F191C52C3040045EF23 /* sb_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sb_file.h; sourceTree = "<group>"; };
+		FA5A0F1A1C52C3040045EF23 /* sb_number.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sb_number.c; sourceTree = "<group>"; };
+		FA5A0F1B1C52C3040045EF23 /* sb_number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sb_number.h; sourceTree = "<group>"; };
+		FA5A0F1C1C52C3040045EF23 /* sb_string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sb_string.c; sourceTree = "<group>"; };
+		FA5A0F1D1C52C3040045EF23 /* sb_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sb_string.h; sourceTree = "<group>"; };
+		FA5A0F1E1C52C3040045EF23 /* vente_controller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vente_controller.c; sourceTree = "<group>"; };
+		FA5A0F1F1C52C3040045EF23 /* vente_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vente_controller.h; sourceTree = "<group>"; };
+		FA5A0F201C52C3040045EF23 /* vente.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vente.c; sourceTree = "<group>"; };
+		FA5A0F211C52C3040045EF23 /* vente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vente.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +107,40 @@
 		FA5A0EF81C52C2F70045EF23 /* libpharma */ = {
 			isa = PBXGroup;
 			children = (
+				FA5A0F001C52C3040045EF23 /* api.h */,
+				FA5A0F011C52C3040045EF23 /* client_controller.c */,
+				FA5A0F021C52C3040045EF23 /* client_controller.h */,
+				FA5A0F031C52C3040045EF23 /* client.c */,
+				FA5A0F041C52C3040045EF23 /* client.h */,
+				FA5A0F051C52C3040045EF23 /* commande_controller.c */,
+				FA5A0F061C52C3040045EF23 /* commande_controller.h */,
+				FA5A0F071C52C3040045EF23 /* commande.c */,
+				FA5A0F081C52C3040045EF23 /* commande.h */,
+				FA5A0F091C52C3040045EF23 /* constants.c */,
+				FA5A0F0A1C52C3040045EF23 /* constants.h */,
+				FA5A0F0B1C52C3040045EF23 /* fournisseur_controller.c */,
+				FA5A0F0C1C52C3040045EF23 /* fournisseur_controller.h */,
+				FA5A0F0D1C52C3040045EF23 /* fournisseur.c */,
+				FA5A0F0E1C52C3040045EF23 /* fournisseur.h */,
+				FA5A0F0F1C52C3040045EF23 /* LICENSE */,
+				FA5A0F101C52C3040045EF23 /* linked_list.c */,
+				FA5A0F111C52C3040045EF23 /* linked_list.h */,
+				FA5A0F121C52C3040045EF23 /* medicament_controller.c */,
+				FA5A0F131C52C3040045EF23 /* medicament_controller.h */,
+				FA5A0F141C52C3040045EF23 /* medicament.c */,
+				FA5A0F151C52C3040045EF23 /* medicament.h */,
+				FA5A0F161C52C3040045EF23 /* sb_date.c */,
+				FA5A0F171C52C3040045EF23 /* sb_date.h */,
+				FA5A0F181C52C3040045EF23 /* sb_file.c */,
+				FA5A0F191C52C3040045EF23 /* sb_file.h */,
+				FA5A0F1A1C52C3040045EF23 /* sb_number.c */,
+				FA5A0F1B1C52C3040045EF23 /* sb_number.h */,
+				FA5A0F1C1C52C3040045EF23 /* sb_string.c */,
+				FA5A0F1D1C52C3040045EF23 /* sb_string.h */,
+				FA5A0F1E1C52C3040045EF23 /* vente_controller.c */,
+				FA5A0F1F1C52C3040045EF23 /* vente_controller.h */,
+				FA5A0F201C52C3040045EF23 /* vente.c */,
+				FA5A0F211C52C3040045EF23 /* vente.h */,
 				FA5A0EF91C52C2F70045EF23 /* main.c */,
 			);
 			path = libpharma;
@@ -118,7 +202,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5A0F271C52C3040045EF23 /* fournisseur_controller.c in Sources */,
+				FA5A0F221C52C3040045EF23 /* client_controller.c in Sources */,
+				FA5A0F241C52C3040045EF23 /* commande_controller.c in Sources */,
+				FA5A0F291C52C3040045EF23 /* linked_list.c in Sources */,
+				FA5A0F2C1C52C3040045EF23 /* sb_date.c in Sources */,
+				FA5A0F2E1C52C3040045EF23 /* sb_number.c in Sources */,
+				FA5A0F2F1C52C3040045EF23 /* sb_string.c in Sources */,
+				FA5A0F281C52C3040045EF23 /* fournisseur.c in Sources */,
+				FA5A0F301C52C3040045EF23 /* vente_controller.c in Sources */,
+				FA5A0F2D1C52C3040045EF23 /* sb_file.c in Sources */,
 				FA5A0EFA1C52C2F70045EF23 /* main.c in Sources */,
+				FA5A0F2A1C52C3040045EF23 /* medicament_controller.c in Sources */,
+				FA5A0F261C52C3040045EF23 /* constants.c in Sources */,
+				FA5A0F231C52C3040045EF23 /* client.c in Sources */,
+				FA5A0F311C52C3040045EF23 /* vente.c in Sources */,
+				FA5A0F2B1C52C3040045EF23 /* medicament.c in Sources */,
+				FA5A0F251C52C3040045EF23 /* commande.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
